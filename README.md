@@ -1,2 +1,2 @@
 # Mock-Netflix
-Mock Netflix is a Netflix like page with editable rows of titles using React and Redux.
+## Mock Netflix is a Netflix like page with editable rows of titles using React and Redux.
