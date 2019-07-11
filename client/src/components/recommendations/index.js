@@ -27,6 +27,7 @@ class Recommendations extends React.Component {
             return (
               <div className="slide" key={index}>
                 <img className="img" src={item.img} alt={item.title} />
+                <div> {item.title}</div>
                 <input
                   type="button"
                   className="button"

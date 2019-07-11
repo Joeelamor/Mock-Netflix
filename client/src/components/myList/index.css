@@ -10,6 +10,7 @@
 .myList .slide {
   display: inline-block;
   vertical-align: top;
+  text-align: center;
 }
 
 .button {
