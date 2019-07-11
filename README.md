@@ -14,7 +14,7 @@ Mock Netflix is a Netflix like page with editable rows of titles using React and
 
 - Clicking on the button should add the title to the “My List” row.
  
-The list of titles in the “My List” row should be displayed at the bottom of the page.
+- The list of titles in the “My List” row should be displayed at the bottom of the page.
 
 ### Frond-end Design
 HTML5, CSS3, JavaScript, ReactJS, Redux
