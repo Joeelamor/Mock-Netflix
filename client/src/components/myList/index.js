@@ -24,6 +24,7 @@ class MyList extends React.Component {
     return (
       <div>
         <div className="myList">
+          <h2>My List</h2>
           {list.map((item, index) => {
             return (
               <div className="slide" key={index}>

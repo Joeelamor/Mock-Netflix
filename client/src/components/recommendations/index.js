@@ -23,6 +23,7 @@ class Recommendations extends React.Component {
     return (
       <div>
         <div className="recommendations">
+          <h2>Recommendations</h2>
           {list.map((item, index) => {
             return (
               <div className="slide" key={index}>

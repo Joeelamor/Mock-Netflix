@@ -10,10 +10,12 @@ class TitleList extends React.Component {
     const { list } = this.props;
     return (
       <div>
-        <h2>{"My List"}</h2>
-        {list.map((item, index) => {
-          return <li key={index}>{item.title}</li>;
-        })}
+        <h2>{"My List: "}</h2>
+        <ul>
+          {list.map((item, index) => {
+            return <li key={index}>{item.title}</li>;
+          })}
+        </ul>
       </div>
     );
   }
