@@ -1,21 +1,16 @@
 import React from "react";
 import MyList from "./myList";
 import Recommendations from "./recommendations";
+import TitleList from "./titleList";
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <MyList />
-        <Recommendations />
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div className="App">
+      <MyList />
+      <Recommendations />
+      <TitleList />
+    </div>
+  );
+};
 
 export default App;
