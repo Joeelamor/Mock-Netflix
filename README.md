@@ -21,5 +21,6 @@ HTML5, CSS3, JavaScript, ReactJS, Redux
 
 ### How to run the project
 - Install npm.
+- Go to `client` folder
 - Use `npm install` to install all node_modules showed in package.json file.
 - Run `npm start` to start react server.
